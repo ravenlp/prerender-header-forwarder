@@ -1,6 +1,6 @@
 #prerender-header-forwarder
 
-Prerender (https://github.com/prerender/prerender) that enables you to specify a set of headers to be forwarded to phantomJs when present on the original request.
+Prerender (https://github.com/prerender/prerender) plugin that enables you to specify a set of headers to be forwarded to phantomJs when present on the original request.
 
 ##How to use
 
@@ -24,6 +24,7 @@ node server.js
 # Or whatever you use to run your prerender server
 ```
 
+The on the server.js
 ```js
 server.use(require('prerender-header-forwarder')());
 // Don't forget to include the '()'

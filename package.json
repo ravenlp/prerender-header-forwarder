@@ -1,6 +1,6 @@
 {
-  "name": "prereder-header-forwarder",
-  "version": "0.1.0",
+  "name": "prerender-header-forwarder",
+  "version": "1.0.0",
   "description": "Prerender plugin that lets you forward selected headers from the original request to phantomjs",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,4 @@
     "url": "https://github.com/ravenlp/prerender-header-forwarder/issues"
   },
   "homepage": "https://github.com/ravenlp/prerender-header-forwarder",
-  "readme": "ERROR: No README data found!"
 }
